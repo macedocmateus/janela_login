@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Mateus">
+    <meta name="description" content="lista de documentos">
+    <meta name="keywords" content="html5, tecnologia">
+    <title>Formularios</title>
+
+<style>
+    .formLogin{
+        width: 250px;
+        margin: 50px auto 0;
+        font-family: sans-serif;
+        
+        
+    }
+
+    .formLogin label{
+        margin: 15px 0 10px 0;
+        display:inline-block;
+    }
+
+    .formLogin fieldset{
+        background-color: #ccc;
+    }
+
+    .formLogin legend{
+        background-color: white;
+        display: inline-block;
+        padding: 15px;
+    }
+
+
+    #user,#pass,#btn{
+        display:inline-block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+        font-size: 15px;
+        border: none;
+    }
+
+    #user, #pass{
+        background-color: rgb(224, 224, 224);
+    
+    }
+    
+    #user:focus, #pass:focus{
+        background-color: rgb(255, 255, 255);
+    }
+
+    #btn{
+        margin-top: 15px;
+    }
+
+    #user{
+    margin-bottom: 15px;
+    }
+
+</style>
+
+</head>
+<body>
+   
+    
+   <form action="#" method="POST" class="formLogin">
+    <fieldset>
+        
+        <legend>Login</legend>
+
+    
+    <label for="user">Digite o seu usuario</label>
+    <input type="text" name="user" id="user" autofocus>
+
+    <label for="pass">Digite a senha</label>
+    <input type="password" name="pass" id="pass">
+
+    <input type="submit" value="logar" id="btn">
+    
+    
+</fieldset>
+</form>
+
+
+
+</body>
+</html>
